@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href = "website.css">
+        <title>Simple Canvas Sketching Tool</title>
+    </head>
+    <body>
+        <section class="container">
+            <div id="toolbar">
+                <h1>Draw.</h1>
+                <label for="stroke">Stroke</label>
+                <input id="stroke" name="stroke" type="color">
+                <label for="lineWidth">Line Width</label>
+                <input id="lineWidth" name="lineWidth" type="number" value="5">
+                <button id="clear">Clear</button>
+            </div>
+            <div class="drawing-board">
+                <canvas id="drawing-board"></canvas>
+            </div>
+            <div id="savingproject">
+                <h1>+</h1>
+                <placeholder>Save Project</placeholder>
+                <h1>+</h1>
+                <h2>Sketches</h2>
+                <h2>Users</h2>
+            </div>>
+        </section>
+        <script src = "./website.js"></script>
+    </body>
+</html>

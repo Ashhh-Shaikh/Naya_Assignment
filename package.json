@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "mongo": "^0.1.0"
+  }
+}

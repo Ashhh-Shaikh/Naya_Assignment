@@ -1,0 +1,146 @@
+body {
+    --color-primary: #322278;
+    --color-primary-dark: #ffffff;
+    --color-secondary: #d3d4e1;
+    --color-error: #cc3333;
+    --color-success: #4bb544;
+    --border-radius: 0px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    background: var(--color-primary-dark);
+    background-size: cover;
+}
+a {
+  margin: auto;
+}
+.container {
+    width: 300px;
+    max-width: 300px;
+    margin: auto;
+    padding: 2rem;
+    background: #ffffff;
+}
+
+.container,
+.form__button {
+    font: 500 1rem 'Open Sans', sans-serif;
+    color: var(--color-primary-dark);
+    text-align: center;
+    align-items: center;
+}
+
+.form__button {
+    color: var(--color-primary-dark);
+}
+
+.form__title {
+    font: 600 1.8rem 'Helvetica', sans-serif;
+    color: var(--color-primary); 
+}
+
+.form--hidden {
+    display: none;
+}
+
+.form > *:first-child {
+    margin-top: 0;
+}
+
+.form > *:last-child {
+    margin-bottom: 0;
+}
+
+.form__title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.form__message {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form__message--success {
+    color: var(--color-success);
+}
+
+.form__message--error {
+    color: var(--color-error);
+}
+
+.form__input-group {
+    margin-bottom: 1rem;
+}
+
+.form__input {
+    display: block;
+    width: 70%;
+    padding: 0.65rem;
+    margin: auto;
+    box-sizing: border-box;
+    border: 1px solid #aaaaaa;
+    outline: none;
+    background: #ffffff;
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.form__input:focus {
+    border-color: var(--color-primary);
+    color: #000000;
+}
+
+.form__input--error {
+
+    color: var(--color-error);
+    border-color: var(--color--error);
+}
+
+.form__input-error-message {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--color-error);
+}
+
+.form__button {
+    width: 75%;
+    padding: 0.8rem 1rem;
+    margin: auto 36px;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    text-decoration-color: #ffffff;
+    outline: none;
+    cursor: pointer;
+    background: var(--color-primary);
+    font-style: #ffffff;
+}
+
+.form__button:hover {
+    background: #aaaaaa;
+    color: var(--color-primary);
+}
+
+.form__button:active {
+    transform: scale(0.80);
+}
+
+.form__text {
+    text-align: center;
+}
+
+.form__link {
+    color: var(--color-primary);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form__link:hover{
+    text-decoration: underline;
+}
+
+
+

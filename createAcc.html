@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Create Account</title>
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="./src/main.css">
+</head>
+<body>
+    <div class="container">
+        <div>           
+            <h1 class="form__title">Create Account</h1>
+            <div class="form__input-group">
+                <input type="text" id="signupUsername" class="form__input" autofocus placeholder="First Name" id="first-name" name="first-name" type="text" required />
+                <div class="form__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+                <input type="text" class="form__input" autofocus placeholder="Last Name" id="last-name" name="last-name" type="text" required />
+                <div class="form__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+                <input type="email" class="form__input" autofocus placeholder="Email ID" id="email" name="email" type="email" required />
+                <div class="form__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+                <input type="password" class="form__input" autofocus placeholder="Password" id="new-password" name="new-password" type="password" pattern="[a-z A-Z 0-5]{8,} {!,@,#,$,%,^,&,*}" required />
+                <div class="form__input-error-message"></div>
+            </div>
+            <button class="form__button" type="Submit"><a href="./we bsite.html">Login</a></button>
+            <p class="form__text">
+                <a class="form__link" href="./login.html" id="linkLogin">Already have an account? Sign in!</a>
+            </p>
+        </div>
+    </div>
+    <script src="./src/main.js"></script>
+</body>
